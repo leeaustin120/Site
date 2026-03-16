@@ -197,12 +197,13 @@ a:hover {
 }
 
 .headshot {
-  flex-shrink:   0;
-  width:         120px;
-  height:        120px;
-  object-fit:    cover;
-  border-radius: 3px;
-  display:       block;
+  flex-shrink:    0;
+  width:          120px;
+  height:         120px;
+  object-fit:     cover;
+  object-position: 85% 70%; /* EDIT: adjust these % values to reframe the crop — higher % shifts right/down */
+  border-radius:  3px;
+  display:        block;
 }
 
 .about-text {

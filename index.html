@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- EDIT: Update this description for SEO / link previews -->
+  <meta name="description" content="Austin Lee — analytics, data science, fintech, and applied AI.">
+  <title>Austin Lee</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- ======================================================
+         NAVIGATION
+         EDIT: site-name and nav-links text here.
+         ====================================================== -->
+    <nav class="site-nav">
+      <span class="site-name">Austin Lee</span>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- ======================================================
+         ABOUT
+         ====================================================== -->
+    <section id="about" class="section section-about">
+
+      <!-- PHOTO: src points to IMG_4394.jpeg in the site root -->
+      <img src="IMG_4394.jpeg" alt="Austin Lee" class="headshot">
+
+      <div class="about-text">
+        <!-- EDIT: Your name -->
+        <h1 class="display-name">Austin Lee</h1>
+        <!-- EDIT: Short role / affiliation line -->
+        <p class="tagline">Analytics Lead &middot; Bluevine</p>
+        <!-- EDIT: Bio paragraph -->
+        <p>
+          I work on all things data, analytics, strategy, machine learning,
+          and applied AI. I studied economics at UCLA and data science at
+          UC Berkeley, and that intersection of economic thinking and applied
+          ML shapes most of my work. My interests span fintech, experimentation,
+          computer vision, and practical AI applications.
+        </p>
+      </div>
+
+    </section>
+
+    <!-- ======================================================
+         PROJECTS
+         To add a project: copy one .project block, paste below
+         the last one, and update the text.
+         ====================================================== -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <div class="project-list">
+
+        <!-- PROJECT ─────────────────────────────────────────── -->
+        <div class="project">
+          <div class="project-meta-row">
+            <span class="project-title">Vendor Trust Intelligence</span>
+            <span class="project-tags">Applied AI &middot; LLMs &middot; Data Engineering</span>
+          </div>
+          <p>
+            This project takes the information companies generate during software
+            onboarding (comms, including emails, Slack, Jira tickets, and support
+            conversations) and pulls it into one place. The application ingests
+            those signals, organizes them into workstreams, and uses them to
+            generate structured vendor reviews that live on a review board. Over
+            time, it builds a broader layer of onboarding intelligence, with the
+            goal of becoming an end-to-end product for evaluating vendor
+            reliability and surfacing onboarding pain points.
+          </p>
+          <p class="project-links">
+            <a href="https://github.com/syntheticfinds/vendor_software_integration"
+               target="_blank" rel="noopener noreferrer">GitHub</a>
+            &nbsp;&middot;&nbsp;
+            <a href="https://docs.google.com/presentation/d/1JFO6lfKK7rEiCp5JdqS1DASUhos-JmWsVUtDWDUIVDE/edit?slide=id.g3beec2bdab8_0_416#slide=id.g3beec2bdab8_0_416"
+               target="_blank" rel="noopener noreferrer">Slide Deck</a>
+          </p>
+        </div>
+
+        <!-- PROJECT ─────────────────────────────────────────── -->
+        <div class="project">
+          <div class="project-meta-row">
+            <span class="project-title">
+              <a href="https://github.com/leeaustin120/Datasci281-Final-Project/blob/main/Datasci281%20Final%20Report.pdf"
+                 target="_blank" rel="noopener noreferrer">Classifying Art Styles</a>
+            </span>
+            <span class="project-tags">Computer Vision &middot; PyTorch, PCA</span>
+          </div>
+          <p>
+            In this project, we use several computer vision techniques to explore
+            which visual features most strongly drive art-style classification.
+            Specifically, we incorporate edge detection, HOG, LAB color features,
+            local binary patterns, and ResNet50 embeddings for this classification
+            task. The model achieved up to 73% accuracy with minimal performance
+            loss after PCA-based dimensionality reduction.
+          </p>
+        </div>
+
+        <!-- PROJECT ─────────────────────────────────────────── -->
+        <div class="project">
+          <div class="project-meta-row">
+            <span class="project-title">
+              <a href="https://medium.com/@leeaustin_13493/predicting-california-wildfires-ebcdc1ce2829"
+                 target="_blank" rel="noopener noreferrer">Predicting California Wildfires</a>
+            </span>
+            <span class="project-tags">ML &middot; Python, Meteorological Data</span>
+          </div>
+          <p>
+            Wildfires in California have become
+            <a href="https://en.wikipedia.org/wiki/Palisades_Fire" target="_blank" rel="noopener noreferrer">increasingly frequent and severe</a>,
+            posing a significant threat to localities and the state's ecological
+            systems. Using meteorological data (temperature, humidity, wind speed,
+            and other weather patterns) we built models to predict wildfire
+            occurrences. This work has direct real-world implications for local
+            risk assessment, fire department resource planning, and public policy,
+            while surfacing key limitations including temporal scope, spatial
+            resolution, and class imbalance.
+          </p>
+        </div>
+
+        <!-- PROJECT ─────────────────────────────────────────── -->
+        <div class="project">
+          <div class="project-meta-row">
+            <span class="project-title">
+              <a href="https://medium.com/@leeaustin_13493/factors-influencing-peer-to-peer-credit-pricing-77b4ab35d776"
+                 target="_blank" rel="noopener noreferrer">Factors Influencing Peer-to-Peer Credit Pricing</a>
+            </span>
+            <span class="project-tags">Fintech &middot; Regression, Lending Club</span>
+          </div>
+          <p>
+            Peer-to-peer lending represents a fundamental shift in how individuals
+            access credit, enabling them to bypass traditional financial institutions
+            and borrow directly through online marketplaces. Using Lending Club data,
+            this project investigates what financial factors drive credit pricing in
+            a decentralized marketplace.
+          </p>
+        </div>
+
+        <!-- PROJECT ─────────────────────────────────────────── -->
+        <div class="project">
+          <div class="project-meta-row">
+            <span class="project-title">
+              <a href="https://github.com/leeaustin120/Recommendation-System"
+                 target="_blank" rel="noopener noreferrer">Recommendation System</a>
+            </span>
+            <span class="project-tags">ML &middot; Personalization</span>
+          </div>
+          <p>
+            Recommendation systems are essential tools that help individuals discover
+            content tailored to their preferences, enhancing the personalization of
+            digital experiences within platforms and organizations. Whether suggesting
+            movies, music, or products, these systems analyze user interactions and
+            feedback to provide personalized recommendations, creating a more engaging
+            and user-centric environment.
+          </p>
+          <p class="project-links">
+            <a href="https://github.com/leeaustin120/Recommendation-System"
+               target="_blank" rel="noopener noreferrer">GitHub</a>
+          </p>
+        </div>
+
+        <!-- PROJECT ─────────────────────────────────────────── -->
+        <div class="project">
+          <div class="project-meta-row">
+            <span class="project-title">
+              <a href="https://github.com/leeaustin120/LVT-Project/tree/main"
+                 target="_blank" rel="noopener noreferrer">Land Value Tax Analysis</a>
+            </span>
+            <span class="project-tags">Economics &middot; Game Theory, Policy</span>
+          </div>
+          <p>
+            Built an economic analysis comparing traditional property tax and land
+            value tax, with a focus on incentives, efficiency, and market outcomes
+            through game theory. The project modeled how each system affects land
+            improvement, tax burden, and deadweight loss, then applied the framework
+            to a high-level California example.
+          </p>
+          <p class="project-links">
+            <a href="https://github.com/leeaustin120/LVT-Project/tree/main"
+               target="_blank" rel="noopener noreferrer">GitHub</a>
+          </p>
+        </div>
+
+        <!-- PROJECT ─────────────────────────────────────────── -->
+        <div class="project">
+          <div class="project-meta-row">
+            <span class="project-title">
+              <a href="https://github.com/leeaustin120/chess-game"
+                 target="_blank" rel="noopener noreferrer">Chess Game</a>
+            </span>
+            <span class="project-tags">Python &middot; Game Development</span>
+          </div>
+          <p>
+            A terminal-based two-player chess game built entirely from scratch in
+            Python, implementing all six piece types with full legal move validation,
+            check detection, castling, and pawn promotion.
+          </p>
+          <p class="project-links">
+            <a href="https://github.com/leeaustin120/chess-game"
+               target="_blank" rel="noopener noreferrer">GitHub</a>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+<!-- ======================================================
+         CONTACT
+         ====================================================== -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <ul class="contact-list">
+        <li><a href="mailto:leeaustin@berkeley.edu">leeaustin@berkeley.edu</a></li>
+        <li><a href="https://github.com/leeaustin120" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/lee-austin-120/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      </ul>
+    </section>
+
+  </div><!-- /.container -->
+
+  <!-- ======================================================
+       FOOTER
+       EDIT: Replace placeholder URLs with your real links below.
+       ====================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-links">
+        <a href="mailto:leeaustin@berkeley.edu">Email</a>
+        <a href="https://github.com/leeaustin120" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/lee-austin-120/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+      <!-- EDIT: Name and year -->
+      <span class="footer-copy">Austin Lee &middot; 2025</span>
+    </div>
+  </footer>
+
+</body>
+</html>

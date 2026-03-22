@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python -c \"from board import Board; b = Board\\(\\); b.create\\(\\); b.print\\(\\)\")"
-    ]
-  }
-}
